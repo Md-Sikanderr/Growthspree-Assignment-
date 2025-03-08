@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/******************Navbar css**************************/
+.nav-bg {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.menu ul {
+  display: flex;
+}
+.menu li {
+  padding: 0px 10px;
+  list-style: none;
+}
+.chooseus-box {
+  box-shadow: 5px 5px 10px 2px rgb(243, 233, 233);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.ch-bg {
+  background-color: rgba(245, 245, 245, 0.541);
+}
+.ch-bg h6 {
+  margin-bottom: 30px;
+}
+.ch-bg h6::after {
+  content: "";
+  display: block;
+  background-color: black;
+  width: 50px;
+  height: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
